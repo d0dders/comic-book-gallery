@@ -27,7 +27,6 @@ namespace ComicBookGallery.Data
             }
             if (seriesToReturn != null)
             {
-                //TODO Get issues for this series
                 var comicBooks = new ComicBook[0];
                 foreach (var comicBook in Data.ComicBooks)
                 {
